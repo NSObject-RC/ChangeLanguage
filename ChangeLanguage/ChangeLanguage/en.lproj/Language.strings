@@ -1,0 +1,18 @@
+/* 
+  Language.strings
+  ChangeLanguage
+
+  Created by RongCheng on 16/7/21.
+  Copyright © 2016年 RongCheng. All rights reserved.
+*/
+"我的" = "Main" ;
+"附近" = "NearBy" ;
+"好友" = "Friend" ;
+"消息" = "News" ;
+"关雎" = "Guan Ju" ;
+"关关雎鸠，在河之洲。窈窕淑女，君子好逑。" = "guān guān jū jiū ，zài hé zhī zhōu 。yǎo tiǎo shū nǚ ，jun1 zǐ hǎo qiú 。";
+"参差荇菜，左右流之。窈窕淑女，寤寐求之。" = "cān chà xìng cài ，zuǒ yòu liú zhī 。yǎo tiǎo shū nǚ ，wù mèi qiú zhī 。";
+"求之不得，寤寐思服。悠哉悠哉，辗转反侧。" = "qiú zhī bú dé ，wù mèi sī fú 。yōu zāi yōu zāi ，niǎn zhuǎn fǎn cè 。" ;
+"参差荇菜，左右采之。窈窕淑女，琴瑟友之。" = "cān chà xìng cài ，zuǒ yòu cǎi zhī 。yǎo tiǎo shū nǚ ，qín sè yǒu zhī 。" ;
+"参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。" = "cān chà xìng cài ，zuǒ yòu mào zhī 。yǎo tiǎo shū nǚ ，zhōng gǔ lè zhī 。" ;
+"切换语言" = "changeLanguage";

@@ -1,0 +1,22 @@
+
+//
+//  RC.pch
+//  ChangeLanguage
+//
+//  Created by RongCheng on 16/7/21.
+//  Copyright © 2016年 RongCheng. All rights reserved.
+//
+
+#ifndef RC_pch
+#define RC_pch
+#import "UIColor+Extension.h"
+#define  HEIGHT [UIScreen mainScreen].bounds.size.height
+#define  WIDTH  [UIScreen mainScreen].bounds.size.width
+#define LanguageChange   @"LANGUAGECHANGENOTIFICATION"
+
+#define Localized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Language"]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* RC_pch */
