@@ -20,8 +20,20 @@
     
     // 存本地
     if (![[NSUserDefaults standardUserDefaults]objectForKey:@"appLanguage"]) {
+       
+        
+        /**
+        * 获取用户的语言偏好设置列表，该列表对应于IOS中Setting>General>Language弹出的面板中的语言列表。
+        */
         NSArray *languages = [NSLocale preferredLanguages];
+       
+        
+        /**
+         *  第0个元素即为当前用户设置的语言 
+         */
         NSString *language = [languages objectAtIndex:0];
+       
+        
         if ([language hasPrefix:@"zh-Hans"]) {
             [[NSUserDefaults standardUserDefaults] setObject:@"zh-Hans" forKey:@"appLanguage"];
         }else{
