@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RCTabBarController.h"
+#import "RCView.h"
 @interface AppDelegate ()
 
 @end
@@ -42,6 +43,7 @@
     }
 
     self.window.rootViewController = [[RCTabBarController alloc] init];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -67,5 +69,30 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+/*
+ *  是否显示引导页
+ */
+//- (void)showGuiView{
+//    //获得当前版本号
+//    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"];
+//    NSLog(@"---当前版本号---%@",currentVersion);
+//    //沙盒版本号
+//    NSString *lastVersion = [[NSUserDefaults standardUserDefaults] stringForKey:@"CFBundleShortVersionString"];
+//    
+//    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"CFBundleShortVersionString"];
+//    [[NSUserDefaults standardUserDefaults] synchronize];
+//    
+//    
+//    NSLog(@"---沙盒版本号---%@",currentVersion);
+//    if(![currentVersion isEqualToString:lastVersion]){
+//        RCView * rcv=[RCView  guideView];
+//        rcv.frame=self.window.bounds;
+//        [self.window addSubview:rcv];
+//        
+//        
+//        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:@"CFBundleShortVersionString"];
+//        //马上写入沙盒
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//    }
+//}
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510BFB1B1D41AF3900BF6847 /* RCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFB1A1D41AF3900BF6847 /* RCView.m */; };
+		510BFB1D1D41AF4D00BF6847 /* RCView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510BFB1C1D41AF4D00BF6847 /* RCView.xib */; };
 		514869441D4088FC00740F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514869431D4088FC00740F8A /* main.m */; };
 		514869471D4088FC00740F8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 514869461D4088FC00740F8A /* AppDelegate.m */; };
 		5148694D1D4088FC00740F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5148694B1D4088FC00740F8A /* Main.storyboard */; };
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		510BFB191D41AF3900BF6847 /* RCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCView.h; sourceTree = "<group>"; };
+		510BFB1A1D41AF3900BF6847 /* RCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCView.m; sourceTree = "<group>"; };
+		510BFB1C1D41AF4D00BF6847 /* RCView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCView.xib; sourceTree = "<group>"; };
 		5148693F1D4088FC00740F8A /* ChangeLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514869431D4088FC00740F8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		514869451D4088FC00740F8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -185,6 +190,9 @@
 				514869881D40957700740F8A /* RCTabBarController.m */,
 				5148698A1D40959000740F8A /* RCTabBar.h */,
 				5148698B1D40959000740F8A /* RCTabBar.m */,
+				510BFB191D41AF3900BF6847 /* RCView.h */,
+				510BFB1A1D41AF3900BF6847 /* RCView.m */,
+				510BFB1C1D41AF4D00BF6847 /* RCView.xib */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -323,6 +331,7 @@
 				514869AE1D40AA8A00740F8A /* RC.TTF in Resources */,
 				5148698E1D40961200740F8A /* navigationbarBW.png in Resources */,
 				5148694D1D4088FC00740F8A /* Main.storyboard in Resources */,
+				510BFB1D1D41AF4D00BF6847 /* RCView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +361,7 @@
 				514869891D40957700740F8A /* RCTabBarController.m in Sources */,
 				514869471D4088FC00740F8A /* AppDelegate.m in Sources */,
 				514869951D409BAE00740F8A /* FriendsViewController.m in Sources */,
+				510BFB1B1D41AF3900BF6847 /* RCView.m in Sources */,
 				5148698C1D40959000740F8A /* RCTabBar.m in Sources */,
 				514869AB1D40A4DB00740F8A /* UIColor+Extension.m in Sources */,
 				514869441D4088FC00740F8A /* main.m in Sources */,
